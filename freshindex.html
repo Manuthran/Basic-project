@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>National Technologies</title>
+  <style>
+    
+    body {
+      font-family: Arial, sans-serif;
+      margin: 0;
+      padding: 0;
+      color: #333;
+    }
+
+    
+    .navbar {
+      background-color: #007bff;
+      color: white;
+      padding: 1rem;
+      text-align: center;
+    }
+
+    .navbar a {
+      color: white;
+      text-decoration: none;
+      margin: 0 1rem;
+    }
+
+    .navbar a:hover {
+      text-decoration: underline;
+    }
+
+    
+    .hero {
+      text-align: center;
+      padding: 2rem;
+      background-color: #f4f4f4;
+    }
+
+    .hero h2 {
+      color: #007bff;
+    }
+
+    .hero button {
+      padding: 0.5rem 1rem;
+      background-color: #007bff;
+      color: white;
+      border: none;
+      border-radius: 5px;
+      cursor: pointer;
+    }
+
+    .hero button:hover {
+      background-color: #0056b3;
+    }
+
+   
+    .about {
+      padding: 2rem;
+      text-align: center;
+    }
+
+    
+    .services {
+      padding: 2rem;
+      background-color: #f4f4f4;
+      text-align: center;
+    }
+
+    .service-item {
+      display: inline-block;
+      width: 30%;
+      margin: 1rem;
+      padding: 1rem;
+      background: white;
+      border: 1px solid #ddd;
+      border-radius: 5px;
+    }
+
+   
+    .contact {
+      padding: 2rem;
+      text-align: center;
+      background-color: #007bff;
+      color: white;
+    }
+
+    
+    .footer {
+      text-align: center;
+      padding: 1rem;
+      background-color: #333;
+      color: white;
+    }
+  </style>
+</head>
+<body>
+ 
+  <header class="navbar">
+    <h1>National Technologies</h1>
+    <nav>
+      <a href="#">Home</a>
+      <a href="#">About</a>
+      <a href="#">Services</a>
+      <a href="#">Contact</a>
+    </nav>
+  </header>
+
+ 
+  <section class="hero" id="home">
+    <h2>Welcome to National Technologies</h2>
+    <p>Empowering businesses with IT solutions.</p>
+    <button onclick="showMessage()">Learn More</button>
+  </section>
+
+  
+  <section class="about" id="about">
+    <h2>About Us</h2>
+    <p>We provide software development, web design, and cloud solutions to help businesses grow.</p>
+  </section>
+
+  
+  <section class="services" id="services">
+    <h2>Our Services</h2>
+    <div class="service-item">
+      <h3>Software Development</h3>
+      <p>Custom software tailored to your needs.</p>
+    </div>
+    <div class="service-item">
+      <h3>Web Design</h3>
+      <p>Modern and responsive web solutions.</p>
+    </div>
+    <div class="service-item">
+      <h3>Cloud Solutions</h3>
+      <p>Scalable and secure cloud services.</p>
+    </div>
+  </section>
+
+ 
+  <section class="contact" id="contact">
+    <h2>Contact Us</h2>
+    <p>Email: <a href="mailto:info@nationaltechnologies.com" style="color: #ffdd57;">info@nationaltechnologies.com</a></p>
+  </section>
+
+ 
+  <footer class="footer">
+    <p>© 2025 National Technologies. All rights reserved.</p>
+  </footer>
+
+  
+  <script>
+    
+    function showMessage() {
+      alert("Thank you for showing interest in National Technologies!");
+    }
+  </script>
+</body>
+</html>
